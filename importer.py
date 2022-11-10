@@ -38,5 +38,5 @@ for fname in glob('../infowars_tmp/*.mp3.vtt'):
 
     with open(fname, 'r') as old_file, open(new_fname, 'w') as new_file:
         new_file.write(
-            reformat_vtt(old_file.read())
+            reformat_vtt(old_file.read()).encode('utf-8')
         )
