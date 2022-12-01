@@ -1,0 +1,42 @@
+[00:00.000 --> 00:07.080]  But did you know the Berkeys have had independent lab tests done to prove just how effective
+[00:07.080 --> 00:08.080]  they are?
+[00:08.080 --> 00:10.960]  It's true, and he can email you the test results.
+[00:10.960 --> 00:12.960]  Just visit GoBerkey.com.
+[00:12.960 --> 00:17.280]  You may also know that the Berkey guy has helped tens of thousands of people get better
+[00:17.280 --> 00:18.280]  prepared.
+[00:18.280 --> 00:19.960]  Now here's something you may not know.
+[00:19.960 --> 00:25.720]  GoBerkey.com has amazing specials and deals all the time on a wide variety of survival
+[00:25.720 --> 00:29.760]  and preparedness products, most ready to ship same day.
+[00:29.760 --> 00:35.120]  Visit the Berkey guy at GoBerkey.com and be sure to click the red products on sale now
+[00:35.120 --> 00:36.120]  button.
+[00:36.120 --> 00:41.120]  You can always call toll free 877-886-3653.
+[00:41.120 --> 00:45.360]  Again that's 877-886-3653.
+[00:45.360 --> 00:50.400]  GoBerkey.com, home of a Berkey guy.
+[00:50.400 --> 00:54.520]  American gardeners and fellow patriots make the right choice with your money, time and
+[00:54.520 --> 00:55.840]  your family food supply.
+[00:55.840 --> 01:01.120]  Choose 100% pure heirloom seeds in the Survival Seed Vault from MyPatriotSupply.com.
+[01:01.120 --> 01:02.120]  Why spin more?
+[01:02.120 --> 01:07.560]  The Survival Seed Vault from MyPatriotSupply.com is only $37.95 and includes 20 varieties of
+[01:07.560 --> 01:10.080]  pure, hearty, easy to grow heirloom seeds.
+[01:10.080 --> 01:14.320]  Yes, only $37.95, that's 70% less than our competitors.
+[01:14.320 --> 01:17.640]  You could buy three Survival Seed Vaults for less than one of theirs.
+[01:17.640 --> 01:22.360]  The Survival Seed Vault from MyPatriotSupply.com includes detailed planting and seed saving
+[01:22.360 --> 01:24.240]  instructions and ships same day.
+[01:24.240 --> 01:27.120]  Plus all orders over $49 ship free.
+[01:27.120 --> 01:32.000]  MyPatriotSupply.com is American owned by patriots like you, passionate about freedom
+[01:32.000 --> 01:33.000]  and preparedness.
+[01:33.000 --> 01:42.240]  Call now 866-2290-927, that's 866-2290-927 or discover more emergency preparedness items
+[01:42.240 --> 01:45.240]  when you order at MyPatriotSupply.com.
+[01:45.240 --> 01:57.880]  Choose the original, choose the Survival Seed Vault at MyPatriotSupply.com.
+Traceback (most recent call last):
+  File "/home/erlends/.local/bin/whisper", line 8, in <module>
+    sys.exit(cli())
+  File "/home/erlends/.local/lib/python3.10/site-packages/whisper/transcribe.py", line 307, in cli
+    result = transcribe(model, audio_path, temperature=temperature, **args)
+  File "/home/erlends/.local/lib/python3.10/site-packages/whisper/transcribe.py", line 207, in transcribe
+    add_segment(
+  File "/home/erlends/.local/lib/python3.10/site-packages/whisper/transcribe.py", line 168, in add_segment
+    print(f"[{format_timestamp(start)} --> {format_timestamp(end)}] {text}")
+  File "/home/erlends/.local/lib/python3.10/site-packages/whisper/utils.py", line 31, in format_timestamp
+    assert seconds >= 0, "non-negative timestamp expected"
+AssertionError: non-negative timestamp expected
